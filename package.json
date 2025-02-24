@@ -1,0 +1,22 @@
+{
+  "name": "figma-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "sass --watch src/scss/style.scss src/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.85.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "bootstrap": "^5.3.3",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.0",
+    "swiper": "^11.2.4"
+  }
+}
