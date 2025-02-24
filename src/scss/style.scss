@@ -163,7 +163,7 @@ section {
     background-repeat: no-repeat;
     background-size: contain;
     color: white;
-    background-image: url(/src/assets/images/hero-bg.png);
+    background-image: url(./assets/images/hero-bg.png);
 
     .count {
         font-size: 20px;
@@ -276,7 +276,7 @@ section {
     .tab-content {
 
         .card {
-            background-image: url(/src/assets/images/live-matches-bg.png);
+            background-image: url(./assets/images/live-matches-bg.png);
             background-size: cover;
 
             .date {
@@ -396,8 +396,8 @@ section {
     width: 100%;
     min-height: 420px;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("/src/assets/images/banner-left.png") left center/50% 100% no-repeat,
-        url("/src/assets/images/banner-right.png") right center/50% 100% no-repeat;
+        url("./assets/images/banner-left.png") left center/50% 100% no-repeat,
+        url("./assets/images/banner-right.png") right center/50% 100% no-repeat;
     color: #fff;
 
 
@@ -424,8 +424,8 @@ section {
         padding: 50px 15px;
 
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-        url(/src/assets/images/banner-left.png) top center / 100% 60% no-repeat, 
-        url(/src/assets/images/banner-right.png) bottom center / 100% 50% no-repeat;
+        url(./assets/images/banner-left.png) top center / 100% 60% no-repeat, 
+        url(./assets/images/banner-right.png) bottom center / 100% 50% no-repeat;
 
        .content {
 
@@ -447,7 +447,7 @@ section {
 .ranking-sec { 
 
     .container.bg {
-        background-image: url('/src/assets/images/bg-ranking.png');
+        background-image: url('./assets/images/bg-ranking.png');
 
         background-position: center;
         background-size: cover;
@@ -478,7 +478,7 @@ section {
     }
 
     #myTabContent {
-        background-image: url(/src/assets/images/table-bg.png);
+        background-image: url(./assets/images/table-bg.png);
         margin-top: -18px;
         position: relative;
         z-index: 999;
@@ -707,7 +707,7 @@ section {
 
     .footer-top {
         border-bottom: 1px solid #6D5F7D;
-        background-image: url(/src/assets/images/footer-bg.png);
+        background-image: url(./assets/images/footer-bg.png);
         background-repeat: no-repeat;
         background-size: contain;
 
